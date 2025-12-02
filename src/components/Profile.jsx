@@ -46,7 +46,7 @@ export default function Profile() {
             <div className="instar-header">
               <div className="instar-profile">
                 <div className="instar-profile-img">
-                  <img src="/img/instar1.jpg" alt="profile-img" />
+                  <img src="/homepage/img/instar1.jpg" alt="profile-img" />
                 </div>
                 <div className="instar-name">
                   <h5>LEE HEE SOO</h5>
@@ -59,7 +59,7 @@ export default function Profile() {
             </div>
             <div className="instar-content">
               <div className="instar-main-img">
-                <img src="/img/instar2.jpg" alt="main-img" />
+                <img src="/homepage/img/instar2.jpg" alt="main-img" />
               </div>
               <div className="instar-response">
                 <div className="instar-response-left">

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jamong13.github.io/personal_page",
+  "homepage": "https://jamong13.github.io/homepage",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
