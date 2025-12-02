@@ -46,7 +46,7 @@
   color: var(--sub-highlight);
 }
 #intro .intro-txt4 {
-  z-index: 5;
+  z-index: 0 !important;
 }
 
 #intro .intro-mark {
