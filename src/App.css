@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+25&display=swap");
+
+.jersey-25-regular {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.container {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.section {
+  padding: 5rem 1rem 2rem;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 3rem;
+  }
+}
+
+.highlight {
+  color: var(--main-highlight);
+}
+.section-divider {
+  width: 5rem;
+  height: 0.25rem;
+  background: var(--main-highlight);
+  margin: 0 auto;
+}
+
+.footer {
+  margin-top: auto;
+  background: #2b2b2b;
+  text-align: center;
+  padding: 10px;
+}
