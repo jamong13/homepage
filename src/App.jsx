@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Intro from "./components/Intro";
 import Profile from "./components/Profile";
 import Header from "./components/Header";

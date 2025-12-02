@@ -2,9 +2,13 @@
   background: var(--main-background);
   position: fixed;
   inset: 0;
+  height: 100vh;
+  width: 100%;
   z-index: 9999;
 }
-
+#intro {
+  background: red !important;
+}
 #intro .intro-container {
   position: relative;
   height: 100vh;
@@ -45,7 +49,7 @@
   color: var(--sub-highlight);
 }
 #intro .intro-txt4 {
-  z-index: 0 !important;
+  z-index: 5;
 }
 
 #intro .intro-mark {
