@@ -45,26 +45,26 @@ export default function Header({ activeSection }) {
             {isMenuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
           </button>
         </div>
-      </div>
 
-      {isMenuOpen && (
-        <nav className="mobile-nav">
-          <div className="mobile-nav-items">
-            {navItems.map((item) => (
-              <NavLink
-                key={item.id}
-                to={item.path}
-                onClick={() => setIsMenuOpen(false)}
-                className={`mobile-nav-button ${
-                  activeSection === item.id ? "active" : ""
-                }`}
-              >
-                {item.label}
-              </NavLink>
-            ))}
-          </div>
-        </nav>
-      )}
+        {isMenuOpen && (
+          <nav className="mobile-nav">
+            <div className="mobile-nav-items">
+              {navItems.map((item) => (
+                <NavLink
+                  key={item.id}
+                  to={item.path}
+                  onClick={() => setIsMenuOpen(false)}
+                  className={`mobile-nav-button ${
+                    activeSection === item.id ? "active" : ""
+                  }`}
+                >
+                  {item.label}
+                </NavLink>
+              ))}
+            </div>
+          </nav>
+        )}
+      </div>
     </header>
   );
 }
