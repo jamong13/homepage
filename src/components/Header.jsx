@@ -14,7 +14,7 @@ export default function Header({ activeSection }) {
   ];
 
   return (
-    <nav className="header">
+    <header className="header">
       <div className="container header-container">
         <div className="header-content">
           <div className="header-logo">
@@ -23,7 +23,7 @@ export default function Header({ activeSection }) {
             </span>
           </div>
 
-          <div className="desktop-nav">
+          <nav className="desktop-nav">
             {navItems.map((item) => (
               <NavLink
                 key={item.id}
@@ -36,7 +36,7 @@ export default function Header({ activeSection }) {
                 {item.label}
               </NavLink>
             ))}
-          </div>
+          </nav>
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="mobile-menu-button"
@@ -48,7 +48,7 @@ export default function Header({ activeSection }) {
       </div>
 
       {isMenuOpen && (
-        <div className="mobile-nav">
+        <nav className="mobile-nav">
           <div className="mobile-nav-items">
             {navItems.map((item) => (
               <NavLink
@@ -63,8 +63,8 @@ export default function Header({ activeSection }) {
               </NavLink>
             ))}
           </div>
-        </div>
+        </nav>
       )}
-    </nav>
+    </header>
   );
 }
