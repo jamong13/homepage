@@ -163,27 +163,30 @@
   white-space: nowrap;
 }
 
+@media (max-width: 1000px) {
+  .profile-instar {
+    width: 340px;
+  }
+}
+
 @media (max-width: 768px) {
   .profile-instar {
     padding-bottom: 2rem;
   }
   .profile-right {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
   .profile-right .profile-card h4 {
     font-size: 1.1rem;
   }
 }
-@media (max-width: 560px) {
+@media (max-width: 500px) {
   .profile-instar {
     width: 90%;
     font-size: 0.9rem;
   }
   .profile-instar .instar-name h5 {
     font-size: 1rem;
-  }
-  .profile-right {
-    grid-template-columns: 1fr;
   }
   .profile-right .profile-card h4 {
     font-size: 1rem;
