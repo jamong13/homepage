@@ -2,9 +2,9 @@
   background: var(--main-background);
   position: fixed;
   inset: 0;
-  height: 100vh;
   width: 100%;
   z-index: 9999;
+  overflow: hidden;
 }
 #intro .intro-container {
   position: relative;
@@ -91,4 +91,52 @@
 }
 #intro .intro-mark p {
   color: var(--sub-text);
+}
+
+@media (max-width: 768px) {
+  #intro .intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  #intro .intro-container > div {
+    width: 100%;
+    position: static;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #intro .intro-container .intro-txt {
+    z-index: auto;
+    position: static;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    transform: none;
+  }
+  #intro .intro-txt1 {
+    font-size: 2.5rem;
+  }
+  #intro .intro-txt2 {
+    font-size: 2.5rem;
+  }
+  #intro .intro-txt3 {
+    font-size: 3rem;
+    transform: translate(0, 0);
+  }
+  #intro .intro-txt4 {
+    font-size: 2.5rem;
+    transform: translate(0, 0);
+  }
+  #intro .intro-mark {
+    font-size: 1rem;
+    transform: translate(0, 0);
+  }
+  #intro .intro-mark .intro-mark-question {
+    display: none;
+  }
 }
