@@ -27,16 +27,16 @@ const projects = [
   {
     id: "2",
     title: "e-Sport 'SOO CURRENT'",
-    date: "2025.12(제작 중)",
+    date: "2025.12",
     number: "개인 프로젝트",
     content:
-      "가상의 e-Sport 팀을 소개하는 사이트. AI를 활용하여 제작한 로고와 팀원 프로필 이미지, 팀의 경기 일정과 결과를 보여주는 페이지로 구성. 원스크롤 페이지로 제작. 반응형 웹 디자인 적용.",
+      "가상의 e-Sport 팀을 소개하는 사이트. AI를 활용하여 제작한 로고와 팀원 프로필 이미지, 팀의 경기 일정과 결과를 보여주는 페이지로 구성. 원스크롤 페이지로 제작.",
     skills: "Html, CSS, JavaScript, React, Vite, Figma, AI",
     image: "/img/project2.jpg",
     image2: "",
     thumb: "/img/project2_thumb.jpg",
     web1: "https://www.figma.com/make/OW1ZJ2OAnHGRVnghIXoGHq/eSports-Team-Website?t=POpvSjsOtcyVjowE-1",
-    web2: "#",
+    web2: "https://e-sports-eight.vercel.app/",
   },
   {
     id: "3",
