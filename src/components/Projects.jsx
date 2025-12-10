@@ -50,7 +50,7 @@ const projects = [
     image2: "/homepage/img/project3_2.JPG",
     thumb: "/homepage/img/project3_thumb.jpg",
     web1: "https://www.figma.com/design/JHyeciuBIETfb5LEhxr67D/Todo?node-id=0-1&t=POpvSjsOtcyVjowE-1",
-    web2: "",
+    web2: "https://todo-team.vercel.app/",
   },
   {
     id: "4",
