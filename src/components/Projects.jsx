@@ -30,7 +30,7 @@ const projects = [
     date: "2025.12",
     number: "개인 프로젝트",
     content:
-      "가상의 e-Sport 팀을 소개하는 사이트. AI를 활용하여 제작한 로고와 팀원 프로필 이미지, 팀의 경기 일정과 결과를 보여주는 페이지로 구성. 원스크롤 페이지로 제작.",
+      "가상의 e-Sport 팀을 소개하는 사이트. AI를 활용하여 제작한 로고와 팀원 프로필 이미지, 팀의 경기 일정과 결과를 보여주는 페이지로 구성. 원스크롤 페이지로 제작. 반응형 웹 디자인 적용.",
     skills: "Html, CSS, JavaScript, React, Vite, Figma, AI",
     image: "/img/project2.jpg",
     image2: "",
