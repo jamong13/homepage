@@ -169,9 +169,13 @@ export default function Profile() {
             <div className="profile-card">
               <h4>Edu</h4>
               <p>
-                <span>2025.09~</span>
+                <span>2025.09~12</span>
                 <span>더조은컴퓨터아카데미</span>
-                <span>- 웹 프론트엔드 과정 수료 중</span>
+                <span>- 웹 프론트엔드 과정 수료</span>
+                <br />
+                <span>2025.12~</span>
+                <span>더조은컴퓨터아카데미</span>
+                <span>- 웹 풀스택 과정 수료 중</span>
               </p>
             </div>
             <div className="profile-card">
