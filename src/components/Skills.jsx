@@ -64,6 +64,10 @@ const skills = {
       name: "Figma",
       path: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
     },
+    {
+      name: "Notion",
+      path: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg",
+    },
   ],
 };
 
