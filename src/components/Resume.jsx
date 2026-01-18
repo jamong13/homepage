@@ -8,7 +8,7 @@ export default function Resume() {
       <div className="container">
         <div className="section-header">
           <h2 className="section-title">
-            My <span className="highlight">Projects</span>
+            My <span className="highlight">Resume</span>
           </h2>
           <div className="section-divider"></div>
         </div>
