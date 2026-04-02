@@ -48,6 +48,10 @@
   margin-bottom: 1rem;
 }
 
+.custom-pagination {
+  display: none;
+}
+
 .slide-content {
   height: 100%;
   border-radius: 8px;
@@ -74,10 +78,26 @@
 }
 @media (max-width: 768px) {
   .thumbnail-swiper {
-    display: none;
+    display: none !important;
   }
-  .main-thumbnail-swiper {
-    height: auto;
+
+  .custom-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 15px;
+  }
+  .custom-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: var(--sub-text);
+    opacity: 0.5;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .custom-pagination .swiper-pagination-bullet-active {
+    background: var(--sub-highlight);
+    opacity: 1;
   }
   .slide-content .project-title {
     font-size: 1.1rem;

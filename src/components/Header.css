@@ -105,7 +105,7 @@
 
 .mobile-nav-button.active {
   color: var(--main-highlight);
-  background: rgba(69, 104, 130, 0.1);
+  background: rgba(69, 104, 130, 0.4);
   border-left: 4px solid var(--main-highlight);
 }
 

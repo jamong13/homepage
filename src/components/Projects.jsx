@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Thumbs } from "swiper/modules";
+import { Navigation, Thumbs, Pagination } from "swiper/modules";
 
 import "./Projects.css";
 
@@ -32,7 +32,7 @@ const projects = [
     content:
       "가상의 e-Sport 팀을 소개하는 사이트. AI를 활용하여 제작한 로고와 팀원 프로필 이미지, 팀의 경기 일정과 결과를 보여주는 페이지로 구성. 원스크롤 페이지로 제작. 반응형 웹 디자인 적용.",
     skills: "Html, CSS, JavaScript, React, Vite, Figma, AI",
-    image: "/img/project2.jpg",
+    image: "/img/project2.JPG",
     image2: "",
     thumb: "/img/project2_thumb.jpg",
     web1: "https://www.figma.com/make/OW1ZJ2OAnHGRVnghIXoGHq/eSports-Team-Website?t=oIOrBAqGiwsM5m9E-1",
@@ -79,6 +79,7 @@ export default function Projects() {
           <div className="section-divider"></div>
         </div>
         <section className="projects-section">
+          <div className="custom-pagination"></div>
           <Swiper
             modules={[Thumbs]}
             onSwiper={setThumbsSwiper}
@@ -105,7 +106,7 @@ export default function Projects() {
             ))}
           </Swiper>
           <Swiper
-            modules={[Navigation, Thumbs]}
+            modules={[Navigation, Thumbs, Pagination]}
             thumbs={{
               swiper:
                 thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
@@ -113,6 +114,10 @@ export default function Projects() {
             spaceBetween={10}
             slidesPerView={1}
             navigation
+            pagination={{
+              clickable: true,
+              el: ".custom-pagination",
+            }}
             className="main-thumbnail-swiper"
             breakpoints={{
               0: {
