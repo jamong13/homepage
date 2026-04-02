@@ -34,7 +34,7 @@ const projects = [
     skills: "Html, CSS, JavaScript, React, Vite, Figma, AI",
     image: "/img/project2.JPG",
     image2: "",
-    thumb: "/img/project2_thumb.JPG",
+    thumb: "/img/project2_thumb.jpg",
     web1: "https://www.figma.com/make/OW1ZJ2OAnHGRVnghIXoGHq/eSports-Team-Website?t=oIOrBAqGiwsM5m9E-1",
     web2: "https://e-sports-eight.vercel.app/",
   },
